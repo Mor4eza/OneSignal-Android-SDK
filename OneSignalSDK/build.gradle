@@ -14,7 +14,6 @@ buildscript {
         classpath 'com.android.tools.build:gradle:3.1.0'
 
         classpath 'com.google.gms:google-services:4.0.1'
-        classpath 'com.github.dcendents:android-maven-gradle-plugin:2.1' // Add this line
 
         // OneSignal-Gradle-Plugin - Local testing
         // classpath 'com.onesignal:onesignal-gradle-plugin:[0.8.1, 0.99.99]'

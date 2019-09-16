@@ -4,9 +4,7 @@ plugins {
 apply plugin: 'com.onesignal.androidsdk.onesignal-gradle-plugin'
 
 apply plugin: 'com.android.application'
-apply plugin: 'com.github.dcendents.android-maven'
 
-group='com.github.Mor4eza'
 //apply plugin: com.onesignal.androidsdk.GradleProjectPlugin
 
 android {
@@ -39,8 +37,6 @@ repositories {
   maven { url "https://oss.sonatype.org/content/repositories/snapshots" }
 }
 
-
-
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation 'com.android.support:appcompat-v7:27.1.0'
@@ -63,7 +59,7 @@ dependencies {
     // compile(name: 'OneSignal-release', ext: 'aar')
 
     // New Instructions - Use for released SDK
-     compile 'com.onesignal:OneSignal:[3.8.2, 3.99.99]'
+//     compile 'com.onesignal:OneSignal:[3.8.2, 3.99.99]'
 
     // Old Instructions - Use for released SDK
     // compile 'com.onesignal:OneSignal:3.+@aar'
@@ -72,7 +68,6 @@ dependencies {
 
     // For Chrome tabs
     implementation 'com.android.support:customtabs:27.1.0'
-    implementation project(path: ':onesignal')
 }
 
 //apply plugin: 'com.google.gms.google-services'
