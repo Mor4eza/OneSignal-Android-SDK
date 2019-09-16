@@ -4,7 +4,9 @@ plugins {
 apply plugin: 'com.onesignal.androidsdk.onesignal-gradle-plugin'
 
 apply plugin: 'com.android.application'
+apply plugin: 'com.github.dcendents.android-maven'
 
+group='com.github.Mor4eza'
 //apply plugin: com.onesignal.androidsdk.GradleProjectPlugin
 
 android {
